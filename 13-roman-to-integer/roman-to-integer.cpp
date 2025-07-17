@@ -8,8 +8,6 @@ public:
 
         int total = 0;
         int n = s.size();
-        
-
         for (int i = 0; i < n; ++i) {
             int curr = roman[s[i]];
             int next = (i + 1 < n) ? roman[s[i + 1]] : 0;
