@@ -16,6 +16,7 @@ public:
                     for (int k = 0; k < n; k++) {
                         if (k == i || k == j) continue;
 
+
                         auto P = points[k];
                         if (A[0] <= P[0] && P[0] <= B[0] &&
                             B[1] <= P[1] && P[1] <= A[1]) {
